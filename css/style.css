@@ -521,7 +521,7 @@ footer div h4 {
 
 h4 {
     font-family: 'Nunito', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 h5 {
@@ -533,29 +533,86 @@ h5 {
 
 /* Fim Footer
 -------------------------------------------------------------------------*/
+
+
 /* MEDIA QUERIES
 -------------------------------------------------------------------------*/
+@media (max-width: 479px) {
+    #inicio #imagem-1 img {
+        display: none;
+    }
+
+    #links {
+        margin-top: 2rem;
+    }
+
+    #sobremim-titulo, #sobre-mim #sobremim-titulo span{
+        font-size: 3rem;
+        margin: 0;
+    }
+
+    #sobre-mim #conteudo {
+        margin-top: 0;
+    }
+
+    #conteudo #sobremim-texto span {
+        font-size: 2.5rem;
+    }
+
+    #conteudo #sobremim-texto img {
+        width: 2.5rem;
+    }
+
+    #sobremim-texto div p {
+        font-size: 1rem;
+    }
+
+    #habilidades #habilidades-titulo span {
+        font-size: 3rem;
+    }
+
+    #habilidades-alinhamento div h3 {
+        font-size: 1rem;
+    }
+
+    #projetos-titulo span {
+        font-size: 3rem;
+    }
+
+    footer h4, h5{
+       font-size: .8rem;
+    }
+}
 
 @media (max-width: 480px){
     #logo {
         margin-left: 0;
     }
 
-    #imagem-1 {
-        display: none;
+    div.alinhamento {
+        display: block;
+        margin: 0.5rem;
+    }
+
+    #imagem-1, #imagem-1 img {
+        display: block;
+        width: 14rem;
+        margin: auto;
+        padding-top: 1rem;
     }
 
     #inicio-titulo {
         padding: 0;
+        margin-top: 3rem;
     }
 
     #inicio-titulo h1,h2{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     #links a img {
         width: 3rem;
-        margin-top: 4rem;
+        margin-top: .5rem;
     }
     /*fim page inicial*/
 
@@ -731,7 +788,7 @@ h5 {
     }
 }
 
-@media (min-width: 601px) and (max-width: 800px) {
+@media (min-width: 601px) {
     /*inicio nav*/
     #logo {
         margin: 0;
