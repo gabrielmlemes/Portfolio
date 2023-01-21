@@ -552,7 +552,7 @@ h5 {
     }
 
     #sobre-mim #conteudo {
-        margin-top: 0;
+        margin-top: 4rem;
     }
 
     #conteudo #sobremim-texto span {
@@ -657,7 +657,8 @@ h5 {
     }
 
     #projetos-box {
-        margin: 0;
+        margin: auto;
+        margin-top: 4rem;
         flex-wrap: wrap;
     }
 
@@ -679,12 +680,12 @@ h5 {
     
     #habilidades-titulo span {
         margin: 0;
+        margin-bottom: 2rem;
         font-size: 3.5rem;
     }
 
     #habilidades-alinhamento {
-        flex-wrap: wrap;
-        
+        flex-wrap: wrap;        
     }
 
     #habilidades-alinhamento div img, h3 {
