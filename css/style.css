@@ -169,7 +169,7 @@ a {
 
 h1, h2 {
     font-size: 4rem;
-    font-family: 'Finger Paint',cursive;
+    font-family: 'Nunito', sans-serif;
     background: -webkit-linear-gradient(left, #26e78d 0%,, #0fb7e0 100%);
     background: linear-gradient(to right, #26e78d 0%, #0fb7e0 100%);
     -webkit-background-clip: text;
