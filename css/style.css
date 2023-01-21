@@ -537,9 +537,9 @@ h5 {
 
 /* MEDIA QUERIES
 -------------------------------------------------------------------------*/
-@media (max-width: 479px) {
+@media (min-width:200px) and (max-width: 479px) {
     #inicio #imagem-1 img {
-        display: none;
+        display: block;
     }
 
     #links {
