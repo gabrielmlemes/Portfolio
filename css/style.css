@@ -789,6 +789,123 @@ h5 {
     }
 }
 
+@media (min-width: 601px) and (max-width:1280px) {
+    /*inicio nav*/
+    #logo {
+        margin: 0;
+        font-size: 3rem;
+    }
+
+    #nav ul {
+        font-size: 1.2rem;
+        gap: 1.4rem;
+    }
+    /*fim nav*/
+
+    /*inicio page inicial*/
+
+    .alinhamento {
+        display: block;
+        margin-top: 2rem;
+    }
+
+    #inicio-titulo, h1, h2 {
+        padding: 0;
+        font-size: 3rem;
+    }
+
+    #inicio-titulo {
+        margin-top: 2rem;
+    }
+
+    #imagem-1 img {
+        width: 18rem;
+    }
+    /*fim page inicial*/
+
+    /*inicio sobre mim*/
+    #sobre-mim {
+        height: 120vh;
+    }
+
+    #sobremim-titulo {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+    #sobremim-titulo span {
+        margin: 0;
+        font-size: 4rem;
+    }
+
+    #sobremim-foto, #sobremim-foto img  {
+        width: 9rem;
+        margin: auto;
+        padding-bottom: 1rem;
+        border-radius: 4rem 1rem;
+    }
+
+    #conteudo {
+        display: block;
+        padding: 0;
+        text-align: center;
+    }
+
+    #sobremim-texto img {
+        display: none;
+    }
+
+    #sobremim-texto span {
+        font-size: 3rem;
+    }
+
+    #sobremim-texto div p {
+        width: 25rem;
+        font-size: .88rem;
+        margin: auto;
+    }
+    /*fim sobremim*/
+
+    /*inicio projetos*/
+    #projetos {
+        height: 120vh;
+    }
+
+    #projetos-titulo {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    #projetos-titulo span {
+        margin: 0;
+        font-size: 4rem;
+    }
+
+    #projetos-box {
+        flex-wrap: wrap;
+        margin: auto;
+        margin-top: 5rem;
+    }
+
+    #projetos-box a {
+        margin: auto ;
+        margin-top: 2rem;
+        padding: 3rem;
+    }
+    /*fim projetos*/
+
+    /*inicio habilidades*/
+    #habilidades-alinhamento {
+        flex-wrap: wrap; 
+    }
+
+    #habilidades-alinhamento div img, h3 {
+        width: 9rem;
+        font-size: 1.4rem; 
+    }
+}
 
 
 
