@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(180deg, #1d1b1b 10%, #131212 80%, #26e78d 150%);
+    background: linear-gradient(180deg, #151a21  10%, #0c0f14 80%, #1b2230 150%);
 }
 
 .alinhamento {
@@ -23,8 +23,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: hwb(0 12% 88% / 0.902) ;
-    border-bottom: 1px solid rgb(208, 202, 202);
+    background: #151a21(0 12% 88% / 0.902) ;
+    border-bottom: 1px solid rgb(56, 57, 73);
     z-index: 10;
      
 }
@@ -228,7 +228,7 @@ h1, h2 {
 }
 
 #sobremim-titulo span {
-    margin-left: 51rem;
+    margin-left: 55%;
     font-size: 5rem;
     color: aliceblue;
     font-family: 'Finger Paint',cursive;
@@ -469,16 +469,22 @@ a span:nth-child(4){
 }
 
 #habilidades-alinhamento {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+#habilidades-alinhamento div {
+    margin: 0 auto;
 }
 
 
 #habilidades-alinhamento img {
     width: 10rem;
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
 
@@ -586,6 +592,15 @@ h5 {
 
     footer h4, h5{
        font-size: .8rem;
+    }
+}
+
+@media (max-width: 290px) {
+    #habilidades-alinhamento div{
+        width: 5rem;
+        display: flex;
+        
+        flex-wrap: wrap;
     }
 }
 
@@ -803,7 +818,6 @@ h5 {
     }
 
     #habilidades-alinhamento div img, h3 {
-        width: 9rem;
         font-size: 1.4rem; 
     }
 }
@@ -920,7 +934,6 @@ h5 {
     }
 
     #habilidades-alinhamento div img, h3 {
-        width: 9rem;
         font-size: 1.4rem; 
     }
 }
