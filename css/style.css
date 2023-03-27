@@ -16,7 +16,6 @@ body {
 }
 
 header {
-    font-family: 'Rubik Dirt', cursive;
     box-sizing: border-box;
     height: 70px;
     padding: 1rem;
@@ -25,8 +24,15 @@ header {
     justify-content: space-between;
     background: #151a21(0 12% 88% / 0.902) ;
     border-bottom: 1px solid rgb(56, 57, 73);
-    z-index: 10;
-     
+    z-index: 10;    
+}
+
+header a span {
+    font-family: 'Rubik Dirt', cursive;
+}
+
+header ul {
+    font-family: 'Nunito', sans-serif;
 }
 
 #menu a {
@@ -93,7 +99,7 @@ a {
         width: 100%;
         top: 70px;
         right: 0px;
-        background: #1f1f1f;
+        background: #151a21;
         transition: .6s;
         z-index: 1000;
         height: 0px;
@@ -112,8 +118,7 @@ a {
         margin: 0 1rem;
         display: flex;
         justify-content: center;
-        text-align: center;
-        
+        text-align: center;  
     }
 
     #btn-mobile {
@@ -174,11 +179,31 @@ h1, h2 {
     background: linear-gradient(to right, #26e78d 0%, #0fb7e0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
 
+.efeito-maquina::after {
+    content: '';
+    position: relative;
+    border-right: 2px solid #17e8c2;
+    animation: efeito-maquina 1s linear infinite;
+}
+
+@keyframes efeito-maquina {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 #inicio-titulo {
     padding:100px 0 0 100px;
+    width: 60%;
+
 }
 
 #imagem-1 img {
@@ -611,7 +636,6 @@ h5 {
 
     div.alinhamento {
         display: block;
-        margin: 0.5rem;
     }
 
     #imagem-1, #imagem-1 img {
@@ -624,6 +648,7 @@ h5 {
     #inicio-titulo {
         padding: 0;
         margin-top: 3rem;
+        width: 100vw;
     }
 
     #inicio-titulo h1,h2{
@@ -739,6 +764,7 @@ h5 {
     #inicio-titulo {
         padding: 0;
         margin-top: 3rem;
+        width: 100vw;
     }
 
     #inicio-titulo h1, h2 {
@@ -849,6 +875,7 @@ h5 {
 
     #inicio-titulo {
         margin-top: 2rem;
+        width: 100vw;
     }
 
     #imagem-1 img {
