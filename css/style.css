@@ -337,7 +337,10 @@ h1, h2 {
 }
 
 #projetos-titulo {
-    padding: 5rem 0 0 6rem;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #projetos-titulo span {
@@ -494,6 +497,8 @@ a span:nth-child(4){
 }
 
 #habilidades-alinhamento {
+    max-width: 100%;
+    width: 45rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -523,6 +528,7 @@ h3{
 
 .habilidades-transicao {
     transition: 0.5s;
+    
 }
 .habilidades-transicao:hover {
     transform: scale(1.1) rotateZ(-2deg);
@@ -547,6 +553,7 @@ h3{
 
 footer {
     background-color: rgb(212, 203, 203);
+    padding: 10px;
 }
 
 footer div h4 {
